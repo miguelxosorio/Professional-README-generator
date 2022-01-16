@@ -1,10 +1,10 @@
-## Professional README Generator
+## Professional README.md Generator
 
   [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)(https://opensource.org/licenses/ISC)]
   
   ## Description
 
-  it's a README.md generator ran on node
+  It's a README.md generator run on node
 
   ## Table of Contents
   
@@ -24,7 +24,7 @@
 
   ## Usage
 
-  git clone the repo to your local machine, run npm install/npm i to install dependencies
+  git clone the repo to your local machine, run npm i to install dependencies, navigate to the directory where index.js is located, and run node index.js to start
 
   ## License
 
@@ -33,7 +33,7 @@
 
   ## Contributing
 
-  email me, refer on the link below.
+  Please refer to the email link below to contact me for any contributions to the project.
 
   ## Tests
 
