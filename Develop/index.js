@@ -21,7 +21,7 @@ const questions = [
     },
     {
         type: 'input',
-        message: 'Provide a short description explaining the what, why, and how of your project.\nWhat was your motivation?\nWhy did you build this project?\nWhat problem does it solve?\nWhat did you learn?',
+        message: 'Provide a short description of your project',
         name: 'description',
         validate: function (answer) {
             if(answer.length < 1){
@@ -44,19 +44,11 @@ const questions = [
         type: 'list',
         message: 'What license should your project have?',
         name: 'license',
-        choices: [
-            "MIT",
-            "Unlicense",
-            "Apache 2.0",
-            "GNU GPL v3",
-            "BSD 3-Clause",
-            "Mozilla Public License 2.0",
-            "ISC"
-        ]
+        choices: ["MIT","Unlicense","Apache 2.0","GNU GPL v3","BSD 3-Clause","Mozilla Public License 2.0","ISC"]
     },
     {
         type: 'input',
-        message: 'What are the steps required to install your project?\nWhat command should be ran to install dependencies?',
+        message: 'What command should be ran to install dependencies?',
         name: 'installation',
         default: 'npm i'
     },
@@ -68,7 +60,7 @@ const questions = [
     },
     {
         type: 'input',
-        message: 'Provide instructions for the project provide examples for use',
+        message: 'Provide instructions for the project',
         name: 'usage'
     },
     {
