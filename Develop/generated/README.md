@@ -1,4 +1,4 @@
-## Professional README.md Generator
+# Professional README.md Generator
 
   [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)(https://opensource.org/licenses/ISC)]
   
@@ -28,7 +28,6 @@
 
   ## License
 
-  
   This repository is licensed under the ISC license. 
 
   ## Contributing
@@ -38,7 +37,6 @@
   ## Tests
 
   To run tests, run the following:
-
   `
   npm test
   `

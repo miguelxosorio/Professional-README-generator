@@ -11,7 +11,7 @@ function renderLicenseBadge(license) {
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
 
-  return `## ${data.title}
+  return `# ${data.title}
 
   ${renderLicenseBadge(data.license)}
   
@@ -40,7 +40,6 @@ function generateMarkdown(data) {
   ${data.usage}
 
   ## License
-
   
   This repository is licensed under the ${data.license} license. 
 
@@ -51,7 +50,6 @@ function generateMarkdown(data) {
   ## Tests
 
   To run tests, run the following:
-
   \`
   ${data.tests}
   \`
